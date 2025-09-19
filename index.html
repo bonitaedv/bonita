@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bonita - Be Unique</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        
+        body {
+            background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 20px;
+        }
+        
+        .container {
+            max-width: 500px;
+            width: 100%;
+            background: white;
+            border-radius: 20px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
+        }
+        
+        .header {
+            background: linear-gradient(45deg, #8A2BE2, #9370DB);
+            color: white;
+            text-align: center;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 420px;
+        }
+        
+        .logo-image {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+        
+        .content {
+            padding: 30px;
+        }
+        
+        .links-container {
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+        }
+        
+        .link-button {
+            display: flex;
+            align-items: center;
+            padding: 18px 20px;
+            border-radius: 12px;
+            text-decoration: none;
+            color: white;
+            font-weight: 600;
+            transition: transform 0.3s, box-shadow 0.3s;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        
+        .link-button:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+        }
+        
+        .link-icon {
+            width: 40px;
+            height: 40px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background: rgba(255, 255, 255, 0.2);
+            border-radius: 10px;
+            margin-right: 15px;
+            font-size: 20px;
+        }
+        
+        .link-text {
+            flex: 1;
+        }
+        
+        .link-title {
+            font-size: 18px;
+            margin-bottom: 3px;
+        }
+        
+        .link-desc {
+            font-size: 12px;
+            opacity: 0.9;
+        }
+        
+        .instagram {
+            background: linear-gradient(45deg, #833AB4, #E1306C, #FCAF45);
+        }
+        
+        .facebook {
+            background: linear-gradient(45deg, #4267B2, #3b5998);
+        }
+        
+        .google {
+            background: linear-gradient(45deg, #EA4335, #FBBC05, #34A853, #4285F4);
+        }
+        
+        .location {
+            background: linear-gradient(45deg, #0088cc, #00aaff);
+        }
+        
+        .footer {
+            text-align: center;
+            padding: 20px;
+            color: #666;
+            font-size: 14px;
+            border-top: 1px solid #eee;
+        }
+        
+        @media (max-width: 500px) {
+            .header {
+                height: 220px;
+            }
+            
+            .content {
+                padding: 25px 20px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <img src="https://lh3.googleusercontent.com/a-/ALV-UjXN7yz3dJ7ITt5TMj-9KVgoM591nDD4v90nZUtnY3CYWYqCNlA=s265-w265-h265" alt="Bonita Logo" class="logo-image">
+        </div>
+        
+        <div class="content">
+            <div class="links-container">
+                <a href="https://www.instagram.com/bonita.edv?igsh=MWtzMmEyeWRwbDMzNA%3D%3D&utm_source=qr" class="link-button instagram" target="_blank">
+                    <div class="link-icon">
+                        <i class="fab fa-instagram"></i>
+                    </div>
+                    <div class="link-text">
+                        <div class="link-title">Instagram</div>
+                        <div class="link-desc">Follow for daily updates</div>
+                    </div>
+                    <i class="fas fa-chevron-right"></i>
+                </a>
+                
+                <a href="https://www.facebook.com/share/17EqfQD2Ad/?mibextid=wwXIfr" class="link-button facebook" target="_blank">
+                    <div class="link-icon">
+                        <i class="fab fa-facebook-f"></i>
+                    </div>
+                    <div class="link-text">
+                        <div class="link-title">Facebook</div>
+                        <div class="link-desc">Connect with me</div>
+                    </div>
+                    <i class="fas fa-chevron-right"></i>
+                </a>
+                
+                <a href="https://www.google.com/search?sca_esv=5557089811f8ccdc&biw=1280&bih=585&sxsrf=AE3TifP32wNRuGZRtib6S1pI1vNE3N-7Ig:1758290294282&si=AMgyJEtREmoPL4P1I5IDCfuA8gybfVI2d5Uj7QMwYCZHKDZ-E5k-lP33EZO1SvSg7UuZ4mJSQrUI8A9FH937pn1ptpAAFkeSKtDVdVMdewefXD9wPFrfbJZ9GXlBkS6ZJii6uwEyhMDkThuTIeGDlSMqqE9Y2lUslQ%3D%3D&q=Bonita+be+Unique+Reviews&sa=X&ved=2ahUKEwjHlpzj_eSPAxXF_gIHHVDED4YQ0bkNegQIMRAD" class="link-button google" target="_blank">
+                    <div class="link-icon">
+                        <i class="fab fa-google"></i>
+                    </div>
+                    <div class="link-text">
+                        <div class="link-title">Google Reviews</div>
+                        <div class="link-desc">Leave a review</div>
+                    </div>
+                    <i class="fas fa-chevron-right"></i>
+                </a>
+                
+                <a href="https://maps.app.goo.gl/iuh2wZXGvrHhBzu66?g_st=ipc" class="link-button location" target="_blank">
+                    <div class="link-icon">
+                        <i class="fas fa-map-marker-alt"></i>
+                    </div>
+                    <div class="link-text">
+                        <div class="link-title">Location</div>
+                        <div class="link-desc">Get directions</div>
+                    </div>
+                    <i class="fas fa-chevron-right"></i>
+                </a>
+            </div>
+        </div>
+        
+        <div class="footer">
+            <p>© 2023 Bonita - Be Unique</p>
+        </div>
+    </div>
+</body>
+</html>
